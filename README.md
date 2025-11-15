@@ -10,12 +10,14 @@ This project demonstrates a simple and cost-effective system for regulating DC m
 - L293D – Motor Driver IC
 - DC Motor
 - 16x2 LCD Display
-- Power Supply & Supporting Circuitry
+- Power Supply & Supporting Circuitry.
+  
 ⚙️ Working Principle
 - LM35 senses ambient temperature and outputs a proportional analog voltage.
 - ADC0804 converts this analog signal into a digital value.
 - The 8051 reads the digital temperature data and adjusts PWM signals to control motor speed.
 - The LCD displays current temperature and motor speed level.
+  
 🎯 Applications
 - Industrial cooling systems
 - Smart exhaust fans
