@@ -1,5 +1,4 @@
 # SmartMotorControl-8051
-Temperature-Based DC Motor Speed Control using 8051 &amp; ADC0804 A microcontroller-based system that adjusts DC motor speed based on ambient temperature using an LM35 sensor, ADC0804, and L293D driver. Includes LCD display for real-time temperature and speed feedback. Ideal for low-cost thermal automation.
 🌡️ Temperature-Based DC Motor Speed Control
 Using 8051 Microcontroller and ADC0804
 📘 Overview
@@ -12,3 +11,12 @@ This project demonstrates a simple and cost-effective system for regulating DC m
 - DC Motor
 - 16x2 LCD Display
 - Power Supply & Supporting Circuitry
+⚙️ Working Principle
+- LM35 senses ambient temperature and outputs a proportional analog voltage.
+- ADC0804 converts this analog signal into a digital value.
+- The 8051 reads the digital temperature data and adjusts PWM signals to control motor speed.
+- The LCD displays current temperature and motor speed level.
+🎯 Applications
+- Industrial cooling systems
+- Smart exhaust fans
+- Domestic appliances with thermal regulation
